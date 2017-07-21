@@ -11,12 +11,12 @@ body{
   height: 40px;
     .imagehotline{
       position: absolute;
-      right: 320px;
+      right: 25em;
       top: 8px;
     }
   .phonenumber{
     position: absolute;
-    right: 170px;
+    right: 15em;
     top: 9px;
     border-right: solid 2px;
     padding-right: 5px;
@@ -24,9 +24,14 @@ body{
 }
 //menu
 .navbar.navbar-default {
-  background: transparent;
-  border: none;
-  margin-top: 8px;
+
+    background: transparent;
+    border: none;
+    margin-top: 8px;
+    float: right;
+}
+nav.navbar.navbar-default {
+  box-shadow: none;
 }
 .collapse.navbar-collapse.menu {
   float: right;
@@ -38,68 +43,60 @@ li#menu {
       padding-top: 2px;
   }
 }
+.navbar-default .navbar-nav>li>a {
+  color: #777;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-right: solid 1px;
+}
 //barsearch
-.barsearch{
-  background: url(../images/icon_search.png) no-repeat 350px;
-  height: 42px;
-  border: solid 1px;
-  border-color: #f3ecec;
-  width: 400px;
-  float: right;
-  border-radius: 10px;
+button.btn.btn-default.iconseach {
+  background: transparent;
+  border: none;
 }
-.search {
-  color: #ccc5c5;
-  font-size: 16px;
-  padding-top: 8px;
-  padding-left: 10px;
+input.form-control.search {
+  height: 40px;
+  width: 410px;
+  margin-right: -28px;
 }
-.barsearchs {
-  margin-bottom: 40px;
-}
+
 //slide1
 
 //slide 2
-.slide {
-  margin-top: 20px;
-  height: 350px;
+._slide2 {
+  height: 390px;
 }
 .slide2 {
-  width: 270px;
   height: 350px;
-  background: #ebebeb;
+
   text-align: center;
   padding-top: 10px;
-  float: left;
-  border: solid 1px #00aeef;
-}
-.slick-slide  {
-  display: inline;
-}
-.name_product_slide2 {
+  background: #ebebeb;
   margin-top: 20px;
-  margin-bottom: 10px;
-  font-size: 16px;
+  border: solid 1px #00aeef;
+
+  .title_slide2 {
+    margin-top: 14px;
+    font-size: 16px;
+  }
+  .price_slide2 {
+    color: red;
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 9px;
+    padding-left: 14px;
+    padding-top: 8px;
+    background: url(../images/icon_mua.png) no-repeat top right 1pc;
+    height: 40px;
+  }
 }
-.price_product_slide2 {
-  color: red;
-  font-size: 14px;
-  font-weight: bolder;
-  background: url(../images/icon_mua.png) no-repeat 180px ;
-  margin-right: 25px;
-  height:32px;
-      .price {
-        padding-top: 5px;
-        text-align: left;
-        padding-left: 40px;
-      }
-    }
+
 
 //product feature
 .sanphamnoibat {
-  margin-bottom: 20px;
   margin-top: 20px;
-}
+  }
 .title_feature {
   height: 40px;
   background-color: #00aeef;
@@ -107,11 +104,13 @@ li#menu {
   font-size: 18px;
   padding-left: 10px;
   padding-top: 10px;
-  margin-bottom: 14px;
+  margin-bottom: 2px;
+}
+div#feature {
+  padding-right: 5px;
 }
 .product_feature {
   background-color: #ebebeb;
-  width: 182px;
   height: 238px;
   text-align: center;
   padding-top: 10px;
@@ -174,17 +173,27 @@ li#menu {
   margin-bottom: 20px;
   margin-left: 15px;
 }
+.title_video {
+  background-color: #00aeef;
+  color: white;
+  height: 40px;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
 .image_video {
   padding-left: 16px;
+  margin-bottom: 2px;
 }
 .quote_article{
-  padding-left: 28px;
-  height: 340px;
+    height: 340px;
   position: relative;
 }
 .next_article {
   position: absolute;
-  bottom: 5px;
+  bottom: -20px;
   right: 9px;
   color: #00aeef;
 }
@@ -249,10 +258,53 @@ li#footer {
     font-size: 15px;
   }
 }
+img{
+  max-width: 100%;
+}
+.list_slide{
+  margin:0px 5px;
+  float: left;
+  border: 1px solid black;
+}
+.text_right{
+  text-align: right;
+}
+.list_slick{
+  float: left;
+  margin: 30px;
+  border: 1px black solid;}
 
+@media only screen and (max-width: 580px) and (min-width: 320px) {
+  .navbar.navbar-default {
 
+    //background: #f3f3f3;
+    border: none  ;
+    margin-top: 8px;
+    //float: right;
+  }
 
-
-
-
+  .slide2 {
+    width: 300px;
+    margin-left: 22px;
+    .price_slide2 {
+    padding-left: 50px;
+  }
+  }
+  .price_product_feature{
+    background: url(../images/icon_mua.png) no-repeat top right 5px;
+  }
+  div#video {
+    overflow: hidden;
+  }
+  div#article {
+    margin-bottom: 120px;
+  }
+  input.form-control.search{
+    overflow: hidden;
+    width: 330px;
+  }
+  button.btn.btn-default.iconseach {
+    margin-left: -10px;
+  }
+}
 
