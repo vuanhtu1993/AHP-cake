@@ -1,0 +1,93 @@
+.ddsmoothmenu-v ul{
+margin: 0;
+padding: 0;
+margin-left: 1px;
+/*width: 197px;*/ /* Main Menu Item widths */
+list-style-type: none;
+font: 12px Verdana;
+}
+/*Sub level menu items */
+.ddsmoothmenu-v ul li ul{
+position: absolute;
+width: 220px; /*Sub Menu Items width */
+top: 0;
+font-weight: normal;
+visibility: hidden;
+}
+ 
+.ddsmoothmenu-v ul li{
+position: relative;
+background-color: #e50000;
+}
+
+/* Top level menu links style */
+.ddsmoothmenu-v ul li a{
+display: block;
+overflow: auto; /*force hasLayout in IE7 */
+color: #fff;
+text-decoration: none;
+text-align: left;
+border-bottom: 1px solid #cfcfcf;
+line-height: 34px;
+padding-left: 25px;
+}
+/*menu cap 1*/
+.ddsmoothmenu-v ul li a:link, .ddsmoothmenu-v ul li a:visited, .ddsmoothmenu-v ul li a:active{
+background:url(../images/libg.png) no-repeat 15px 15px; /*background of menu items (default state)*/
+font-weight: bold;
+color: #fff;
+
+}
+.ddsmoothmenu-v ul li a:hover{
+	color: #fff;
+	background: #ff0000;
+}
+
+.ddsmoothmenu-v li:last-child a {
+	border-bottom: none;
+}
+
+.ddsmoothmenu-v ul li ul li a{
+display: block;
+overflow: auto; /*force hasLayout in IE7 */
+color: white;
+text-decoration: none;
+text-align: left;
+border-bottom: 1px solid #cfcfcf;
+line-height: 34px;
+}
+/*menu cap 2*/
+.ddsmoothmenu-v ul li ul li a:link, .ddsmoothmenu-v ul li ul li a:visited, .ddsmoothmenu-v ul li ul li a:active{
+/*background:url(../images/li2_link.png) no-repeat;*/ /*background of menu items (default state)*/
+color: #fff;
+font-weight: bold;
+
+}
+
+.ddsmoothmenu-v ul li ul li a:hover{
+	color: #fff;
+}
+
+.ddsmoothmenu-v ul li ul li ul li a{
+display: block;
+overflow: auto; /*force hasLayout in IE7 */
+color: white;
+text-decoration: none;
+text-align: left;
+
+border-bottom: 1px solid #cfcfcf;
+width: 150px;
+
+line-height: 34px;
+}
+
+/*menu cap 3*/
+.ddsmoothmenu-v ul li ul li ul li a:link, .ddsmoothmenu-v ul li ul li ul li a:visited, .ddsmoothmenu-v ul li ul li ul li a:active{
+background:url(../images/li2_link.png) repeat-x; /*background of menu items (default state)*/
+color: white;
+}
+
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu-v ul li { float: left; height: 1%; }
+* html .ddsmoothmenu-v ul li a { height: 1%; }
+/* End */

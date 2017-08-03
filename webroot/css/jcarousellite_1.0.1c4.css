@@ -1,0 +1,198 @@
+#contentListAlbum{
+    width: 695px;
+    float: left;
+    margin: 10px 5px 0px 10px;
+    border: 1px solid #3883cc;
+    border-radius: 5px 5px;
+	padding-bottom:5px;
+}
+.listProduct{
+	width:695px;
+	margin:10px 10px;
+	border: 1px solid #3883cc;
+	border-radius:5px 5px;
+}
+.list_carousel1{
+	margin-left:20px;
+}
+
+.nameCatpics{
+	color:red;
+	font-weight:bold;
+	font-size:16px;
+	padding-bottom:10px;
+	margin:20px 20px 10px 20px;
+	border-bottom:1px solid #EADBC8;
+}
+.contentcatpics{
+	margin-bottom:20px;
+}
+#foo li{
+	float:left;
+	width:204px;
+	height:175px;
+	margin:10px 18px 40px 8px;
+	overflow:hidden;
+}
+#foo li a img{width:200px;height:auto;}
+.album{
+    float: left;
+    width: 300px;
+    height: 280px;
+    padding: 5px;
+    border-radius: 6px 6px;
+    margin: 10px 4px 0px 20px;
+	border: 1px solid #fff;
+}
+
+.contentListHomeProduct a h3:hover{
+    color: red;
+}
+.imagesBorder img{
+    border: 1px solid #dbdbdb;
+    padding: 1px;
+    width: 300px;
+	height:250px;
+}
+.titlePicture{
+    margin-top: 5px;
+    color: blue;
+}
+.contentListHomeProduct a{
+    text-align: center;
+}
+#contentPictur{
+    width: 695px;
+    float: left;
+    margin: 10px 5px 10px 10px;
+    border: 1px solid #3883cc;
+    border-radius: 5px 5px;
+}
+.title_product{
+    background: url("../images/bgdanhmuc.jpg") repeat-x;
+    height: 36px;
+    border-radius: 5px 5px 0 0;
+    line-height: 36px;
+    margin: 1px;
+}
+.title_product h3{
+    background: url("../images/icondanhmuc.png") no-repeat left 10px top 8px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 45px;
+}
+.picture{
+    width: 197px;
+    height: 240px;
+    padding: 5px;
+    border: 1px solid #fff;    
+    border-radius: 3px 3px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 7px;
+	overflow:hidden;
+}
+
+.detail_image1{
+	width:195px;
+	overflow:hidden;
+	height:195px;
+}
+.detail_image1 img:hover{
+	border:none !important;
+}
+.picture a img{
+    padding: 1px;
+    width: 191px;
+}
+.picture .nameproduct{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    line-height: 30px;
+}
+.picture:hover p{
+    color: blue;
+	text-decoration:underline;
+}
+.picture:hover{
+}
+.titleListNews1{
+    color: red;
+    border-bottom: 1px solid #FC4183;
+    padding: 15px;
+    margin: 0 15px 10px 15px;
+}
+.newsticker-jcarousellite{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	
+    height: 830px !important;
+    width: 240px !important;
+}
+.newsticker-jcarousellite ul{
+    text-align: center;
+}
+.newsticker-jcarousellite ul li{
+	width: 188px !important;
+    margin-bottom: 25px;
+}    
+.contact_pic{
+	border:1px solid #CECECE;
+	background:#F6F6F6;
+	padding:5px 5px;
+	margin-top:5px;
+}
+.orderpic{color:#CC6600;font-weight:bold;}
+.content_detail p{margin-bottom:3px;}
+.content_detail .conpic{
+	float:left;
+	font-weight:bold;
+	padding-left:25px;
+	margin-right:20px;
+	line-height:23px;
+	background: url("../images/ovuong1.jpg") no-repeat;
+}
+.content_detail .hetpic{
+	float:left;
+	font-weight:bold;
+	padding-left:25px;
+	margin-right:20px;
+	line-height:23px;
+	background: url("../images/ovuong.jpg") no-repeat;
+}
+.content_detail .size_pic{font-weight:bold;}
+.contact_pic p{color:#CC6600;}
+.quangcao img{
+	width: 205px;
+	height: 80px;
+}
+#pvt_divClick{
+	width:695px;
+	margin-left:10px;
+	border-radius:5px 5px 0 0;
+	border:1px solid #dbdbdb;
+	margin-top:10px;
+	background: url("../images/bgdanhmuc.jpg") repeat-x;
+}
+#pvt_divClick h3{
+	background: url("../images/icondanhmuc.png") no-repeat left 10px top 8px;
+	margin:1px;
+	height:35px;
+	border-radius:5px 5px 0 0;
+	line-height:35px;
+	text-transform:uppercase;
+	color:#fff;
+	padding-left: 40px;
+	margin:1px;
+}
+.highslide-gallery #thumb1{float:left;}
+.content_detail{
+	width:200px;
+	float:left;
+	margin: 20px;
+    width: 275px;
+}
+.content_detail h2{margin-bottom:5px;color:#000;}
+.name_detailproduct{text-align:center;color:#1F93DC;margin-bottom:10px;font-weight:bold;}
